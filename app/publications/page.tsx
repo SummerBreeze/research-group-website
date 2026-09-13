@@ -30,7 +30,7 @@ export default function PublicationsPage() {
 
   return (
     <main className="flex-1 bg-white">
-      <div className="mx-auto max-w-6xl px-26 py-8">
+      <div className="mx-auto max-w-6xl px-20 py-8">
         <div className="mt-6">
           {years.map((year) => (
             <section
