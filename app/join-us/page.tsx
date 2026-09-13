@@ -7,7 +7,7 @@ export default function JoinUsPage() {
 
   return (
     <main className="flex-1 bg-white">
-      <div className="mx-auto max-w-6xl px-32 py-12">
+      <div className="mx-auto max-w-6xl px-12 py-12">
         {/* Students Section */}
         <section id="students">
           <div className="border-l-4 border-[#A61B1B] pl-4">

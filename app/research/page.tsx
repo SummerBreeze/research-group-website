@@ -8,7 +8,7 @@ export default function ResearchPage() {
 
   return (
     <main className="flex-1 bg-white">
-      <div className="mx-auto max-w-6xl px-32 py-12">
+      <div className="mx-auto max-w-6xl px-12 py-12">
         <div className="space-y-6">
           {researchAreas.map((area) => (
             <article
