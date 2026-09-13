@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  /* 学术型配色方案 - 黑白灰 + 深红 */
+  --color-primary-black: #171717;
+  --color-text-dark-gray: #555555;
+  --color-text-light-gray: #888888;
+  --color-bg-white: #FFFFFF;
+  --color-bg-light-gray: #F7F7F7;
+  --color-bg-warm-gray: #F2F0EE;
+  --color-accent-red: #A61B1B;
+  --color-accent-red-hover: #861616;
+  --color-accent-red-light: #F9EEEE;
+  --color-deep-red: #8B1A1A;
+
+  --background: var(--color-bg-white);
+  --foreground: var(--color-primary-black);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: var(--color-primary-black);
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--color-primary-black);
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-primary-black);
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+p .italic {
+  color: var(--color-text-light-gray);
+}
