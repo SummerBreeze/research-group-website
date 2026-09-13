@@ -30,7 +30,7 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative text-[15px] transition-colors pb-1 ${
+                className={`relative text-[16px] transition-colors pb-1 ${
                   pathname === item.href
                     ? 'text-white font-bold after:w-full'
                     : 'text-white/80 hover:text-white'
@@ -43,7 +43,7 @@ export default function Header() {
             ))}
             <button
               onClick={toggleLocale}
-              className="text-[15px] text-white/60 hover:text-white transition-colors"
+              className="text-[16px] text-white/60 hover:text-white transition-colors"
             >
               {locale === 'zh' ? 'EN' : '中文'}
             </button>
