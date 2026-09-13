@@ -19,7 +19,7 @@ export default function Home() {
               <p className="mt-2 text-[15px] text-[#555555]">
                 {t('home.subtitle')}
               </p>
-              <p className="mt-6 text-[14px] leading-relaxed text-[#555555]">
+              <p className="mt-6 text-[16px] leading-relaxed text-[#555555]">
                 {t('home.intro1')}
                 <strong className="text-[#171717]">{t('home.intro1Bold1')}</strong>、
                 <strong className="text-[#171717]">{t('home.intro1Bold2')}</strong>、
@@ -27,7 +27,7 @@ export default function Home() {
                 <strong className="text-[#171717]">{t('home.intro1Bold4')}</strong>
                 {t('home.intro1End')}
               </p>
-              <p className="mt-4 text-[14px] leading-relaxed text-[#555555]">
+              <p className="mt-4 text-[16px] leading-relaxed text-[#555555]">
                 {t('home.intro2Start')}
                 <strong className="text-[#171717]">{t('home.intro2Bold1')}</strong>、
                 <strong className="text-[#171717]">{t('home.intro2Bold2')}</strong>、
