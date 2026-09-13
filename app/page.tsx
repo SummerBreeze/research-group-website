@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex-1">
       {/* Hero Section */}
       <section className="bg-white py-12">
-        <div className="mx-auto max-w-6xl px-12">
+        <div className="mx-auto max-w-6xl px-26">
           <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
             <div>
               <h1 className="text-[28px] font-bold text-[#171717] leading-tight">
@@ -66,7 +66,7 @@ export default function Home() {
 
       {/* Contact Us */}
       <section className="border-t border-gray-200 bg-[#F7F7F7] py-10">
-        <div className="mx-auto max-w-6xl px-12">
+        <div className="mx-auto max-w-6xl px-26">
           <h2 className="text-[32px] font-bold text-[#171717] mb-10">{t('home.contactUs')}</h2>
 
           <div className="space-y-6">

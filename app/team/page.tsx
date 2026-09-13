@@ -15,7 +15,7 @@ export default function TeamPage() {
 
   return (
     <main className="flex-1 bg-white">
-      <div className="mx-auto max-w-6xl px-12 py-8">
+      <div className="mx-auto max-w-6xl px-26 py-8">
         <h1 className="text-[24px] font-semibold text-[#171717]">{t('team.title')}</h1>
         <p className="mt-2 text-[14px] text-[#555555]">
           {t('team.description')}

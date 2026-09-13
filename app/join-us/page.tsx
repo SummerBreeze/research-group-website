@@ -7,11 +7,11 @@ export default function JoinUsPage() {
 
   return (
     <main className="flex-1 bg-white">
-      <div className="mx-auto max-w-6xl px-12 py-12">
+      <div className="mx-auto max-w-6xl px-26 py-12">
         {/* Students Section */}
         <section id="students">
           <div className="border-l-4 border-[#A61B1B] pl-4">
-            <h2 className="text-[20px] font-semibold text-[#171717]">{t('joinUs.students.title')}</h2>
+            <h2 className="text-[20px] font-semibold text-[#A61B1B]">{t('joinUs.students.title')}</h2>
           </div>
 
           <div className="mt-6 space-y-6">
@@ -66,7 +66,7 @@ export default function JoinUsPage() {
         {/* Postdoc Section */}
         <section id="postdoc" className="mt-12 border-t border-gray-200 pt-10">
           <div className="border-l-4 border-[#A61B1B] pl-4">
-            <h2 className="text-[20px] font-semibold text-[#171717]">{t('joinUs.postdoc.title')}</h2>
+            <h2 className="text-[20px] font-semibold text-[#A61B1B]">{t('joinUs.postdoc.title')}</h2>
           </div>
 
           <div className="mt-6 space-y-6">
