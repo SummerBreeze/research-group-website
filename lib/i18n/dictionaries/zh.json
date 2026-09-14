@@ -9,7 +9,7 @@
   "home": {
     "title": "密码学课题组",
     "subtitle": "暨南大学 网络空间安全学院",
-    "intro1": "课题组由赖俊祚教授和刘逸老师领衔，聚焦",
+    "intro1": "课题组由赖俊祚教授领衔,聚焦",
     "intro1Bold1": "人工智能安全",
     "intro1Bold2": "认知安全",
     "intro1Bold3": "后量子密码",
@@ -44,6 +44,9 @@
     "description": "课题组现有成员包括导师、博士后、博士研究生、硕士研究生等",
     "pi": "导师",
     "postdoc": "博士后",
+    "phd": "博士生",
+    "master": "硕士生",
+    "alumni": "已毕业",
     "website": "Website"
   },
   "publications": {

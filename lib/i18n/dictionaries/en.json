@@ -9,7 +9,7 @@
   "home": {
     "title": "Cryptography Research Group",
     "subtitle": "Jinan University · School of Cyber Science and Technology",
-    "intro1": "Led by Prof. Lai Junzuo and Dr. Liu Yi, our group focuses on cutting-edge research in ",
+    "intro1": "Led by Prof. Lai Junzuo, our group focuses on cutting-edge research in ",
     "intro1Bold1": "AI Security",
     "intro1Bold2": "Cognitive Security",
     "intro1Bold3": "Post-Quantum Cryptography",
@@ -44,6 +44,9 @@
     "description": "Our group consists of faculty members, postdocs, PhD students, and Master's students",
     "pi": "Faculty",
     "postdoc": "Postdocs",
+    "phd": "PhD Students",
+    "master": "Master's Students",
+    "alumni": "Alumni",
     "website": "Website"
   },
   "publications": {
