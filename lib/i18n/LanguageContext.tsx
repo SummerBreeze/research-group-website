@@ -2,6 +2,8 @@
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import type { Locale } from './config';
+import zhTranslations from './dictionaries/zh.json';
+import enTranslations from './dictionaries/en.json';
 
 interface LanguageContextType {
   locale: Locale;
@@ -11,29 +13,32 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
+const translationsMap = {
+  zh: zhTranslations,
+  en: enTranslations,
+};
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>('zh');
-  const [translations, setTranslations] = useState<Record<string, any>>({});
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
     const savedLocale = localStorage.getItem('locale') as Locale;
     if (savedLocale && (savedLocale === 'zh' || savedLocale === 'en')) {
       setLocaleState(savedLocale);
     }
   }, []);
 
-  useEffect(() => {
-    import(`./dictionaries/${locale}.json`).then((module) => {
-      setTranslations(module.default);
-    });
-  }, [locale]);
-
   const setLocale = (newLocale: Locale) => {
     setLocaleState(newLocale);
-    localStorage.setItem('locale', newLocale);
+    if (isClient) {
+      localStorage.setItem('locale', newLocale);
+    }
   };
 
   const t = (key: string): string => {
+    const translations = translationsMap[locale];
     const keys = key.split('.');
     let value: any = translations;
     for (const k of keys) {
