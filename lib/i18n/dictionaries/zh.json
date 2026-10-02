@@ -47,6 +47,11 @@
     "phd": "博士生",
     "master": "硕士生",
     "alumni": "已毕业",
+    "alumniPhd": "已毕业博士生",
+    "alumniMaster": "已毕业硕士生",
+    "colYear": "毕业年份",
+    "colName": "姓名",
+    "colDestination": "毕业去向",
     "website": "Website"
   },
   "publications": {

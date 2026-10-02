@@ -47,6 +47,11 @@
     "phd": "PhD Students",
     "master": "Master's Students",
     "alumni": "Alumni",
+    "alumniPhd": "PhD Alumni",
+    "alumniMaster": "Master's Alumni",
+    "colYear": "Year",
+    "colName": "Name",
+    "colDestination": "Destination",
     "website": "Website"
   },
   "publications": {
